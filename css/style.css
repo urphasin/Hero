@@ -10,13 +10,18 @@
   /* end */
 
   /* Soft Editorial / Minimal (Clean Design Feel) Colors */
-  --bg-1: #f8f7f4;
-  --bg-2: #eae7dc;
-  --bg-3: #d8cfc4;
+  --grad-softeditorial-1x: #f8f7f4;
+  --grad-softeditorial-1y: #c44536;
 
-  --accent-1: #c44536;
-  --accent-2: #2c3e50;
-  --accent-3: #3a5a40;
+  --grad-softeditorial-2x: #eae7dc;
+  --grad-softeditorial-2y: #2c3e50;
+
+  --grad-softeditorial-3x: #d8cfc4;
+  --grad-softeditorial-3y: #3a5a40;
+
+
+  --text-softeditorial-1: #1a1a1a;
+  --text-softeditorial-2: #555;
   /* end */
 
 
@@ -36,18 +41,18 @@
 
 
   /* High Energy Gradient System (Bold Startup Style) Colors*/
-  --grad-1x: #ff512f;
-  --grad-1y: #dd2476;
+  --grad-highenergy-1x: #ff512f;
+  --grad-highenergy-1y: #dd2476;
 
-  --grad-2x: #1d976c;
-  --grad-2y: #93f9b9;
+  --grad-highenergy-2x: #1d976c;
+  --grad-highenergy-2y: #93f9b9;
 
-  --grad-3x: #4e54c8;
-  --grad-3y: #8f94fb;
+  --grad-highenergy-3x: #4e54c8;
+  --grad-highenergy-3y: #8f94fb;
 
-  --gradient-1: linear-gradient(135deg, var(--grad-1x), var(--grad-1y));
-  --gradient-2: linear-gradient(135deg, var(--grad-2x), var(--grad-2y));
-  --gradient-3: linear-gradient(135deg, var(--grad-3x), var(--grad-3y));
+  --gradient-1: linear-gradient(135deg, var(--grad-highenergy-1x), var(--grad-highenergy-1y));
+  --gradient-2: linear-gradient(135deg, var(--grad-highenergy-2x), var(--grad-highenergy-2y));
+  --gradient-3: linear-gradient(135deg, var(--grad-highenergy-3x), var(--grad-highenergy-3y));
 
   --text-light: #ffffff;
   /* end */
