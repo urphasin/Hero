@@ -1,4 +1,5 @@
 :root {
+  /* Fluid Typography*/
   font-size: 13px;
   --step--1: clamp(0.8rem, 0.75rem + 0.2vw, 0.9rem);
   --step-0: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
@@ -6,6 +7,20 @@
   --step-2: clamp(1.5rem, 1.3rem + 0.8vw, 2rem);
   --step-3: clamp(2rem, 1.6rem + 1.5vw, 3rem);
   --step-4: clamp(2.5rem, 2rem + 2vw, 4rem);
+  /* end */
+
+  /* Colors */
+  --bg-1: #0f172a;
+  --bg-2: #1e293b;
+  --bg-3: #0b1120;
+
+  --accent-1: #38bdf8;
+  --accent-2: #a78bfa;
+  --accent-3: #f472b6;
+
+  --text-primary: #f8fafc;
+  --text-muted: #94a3b8;
+  /* end */
 }
 
 h1 {font-size: var(--step-4);}
